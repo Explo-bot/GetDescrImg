@@ -1,7 +1,8 @@
 ﻿# Image Description Generator
 
 ## Overview
-This project is a C# console application that processes all images in a specified folder and generates descriptive text files for each image using OpenAI's API.
+This Visual Studio 2022 project is a C# console application that processes all images in a specified folder and generates descriptive text files for each image using OpenAI's API.
+It runs on .NET Framework 8 (Core).
 
 ## Features
 - Reads images from a specified directory.
@@ -10,8 +11,8 @@ This project is a C# console application that processes all images in a specifie
 - Supports `.jpg`, `.jpeg`, and `.png` formats.
 
 ## Requirements
-- .NET Framework installed.
-- An OpenAI API key.
+- Compiling: Visual Studio 2022 and .NET Framework 8.
+- Running: an OpenAI API key (paid) or LM Studio with a vision model (free).
 
 ## Configuration
 The application requires the following settings to be defined in `App.config`:
@@ -22,7 +23,7 @@ The application requires the following settings to be defined in `App.config`:
     <add key="prompt" value="Describe this image in detail."/>
 </appSettings>
 ```
-You can also use the local end point provided by LM Studio (http://localhost:1234/v1/chat/completions), in which case the API key does not matter.
+You can also use the local end point provided by LM Studio (http://localhost:1234/v1/chat/completions), in which case the API key does not matter and the usage is free of any charge.  
 My preferred local models are:
 - https://huggingface.co/DevQuasar/ibm-granite.granite-vision-3.2-2b-GGUF
 - https://huggingface.co/FiditeNemini/Llama-3.1-Unhinged-Vision-8B-GGUF
