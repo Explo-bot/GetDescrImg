@@ -22,20 +22,22 @@ The application requires the following settings to be defined in `App.config`:
     <add key="prompt" value="Describe this image in detail."/>
 </appSettings>
 ```
+You can also use the local end point provided by LM Studio (http://localhost:1234/v1/chat/completions), in which case the token API does not matter.
 
 ## How to Use
 1. Compile the project.
-2. Run the executable with the folder path as an argument:
+2. Edit the configuration file.
+3. Run the executable with the folder path as an argument:
    ```sh
    ImageDescriptionGenerator.exe "C:\path\to\image\folder"
    ```
-3. The application processes images and generates `.txt` files with descriptions.
+4. The application processes images and generates `.txt` files with descriptions.
 
 ## Example Output
 For an image `example.jpg`, the program creates `example.txt` containing the AI-generated description.
 
 ## Error Handling
-- If no folder path is provided, the program will prompt the user.
+- If no folder path is provided, the program exit and an error message is displayed.
 - If the folder does not exist, an error message is displayed.
 - If an issue occurs while processing an image, it is logged to the console.
 
