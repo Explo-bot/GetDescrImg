@@ -23,7 +23,7 @@ The application requires the following settings to be defined in `App.config`:
 </appSettings>
 ```
 You can also use the local end point provided by LM Studio (http://localhost:1234/v1/chat/completions), in which case the API key does not matter.
-In this case my preferred models are:
+My preferred local models are:
 - https://huggingface.co/DevQuasar/ibm-granite.granite-vision-3.2-2b-GGUF
 - https://huggingface.co/FiditeNemini/Llama-3.1-Unhinged-Vision-8B-GGUF
 - https://huggingface.co/second-state/Llava-v1.5-7B-GGUF
