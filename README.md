@@ -27,6 +27,13 @@ In this case my preferred models are:
 - https://huggingface.co/DevQuasar/ibm-granite.granite-vision-3.2-2b-GGUF
 - https://huggingface.co/FiditeNemini/Llama-3.1-Unhinged-Vision-8B-GGUF
 - https://huggingface.co/second-state/Llava-v1.5-7B-GGUF
+  
+This is an example obtained with IBM's Granite 3.2 vision model:  
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/43e6f75a-3e36-4b16-93a3-4506079b9d27" width="256" height="256"></br>
+    [Flip from Little Nemo comic book]
+</p>
+<b>Description</b>: "The image depicts a cartoon-style drawing of a frog wearing a red hat. The frog has a green face with black eyes, and its mouth is open as if it's speaking or singing. It is holding a cigar in its mouth, which adds to the whimsical nature of the scene. The frog is dressed in a red suit with a white collar, and there are yellow flowers on its lapel, adding a pop of color to the outfit. The background is a light beige color, providing a neutral backdrop that allows the frog to stand out. The overall style of the drawing is playful and imaginative, with exaggerated features and bright colors."
 
 ## How to Use
 1. Compile the project.
