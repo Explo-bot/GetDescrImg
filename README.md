@@ -22,7 +22,7 @@ The application requires the following settings to be defined in `App.config`:
     <add key="prompt" value="Describe this image in detail."/>
 </appSettings>
 ```
-You can also use the local end point provided by LM Studio (http://localhost:1234/v1/chat/completions), in which case the token API does not matter.
+You can also use the local end point provided by LM Studio (http://localhost:1234/v1/chat/completions), in which case the API key does not matter.
 
 ## How to Use
 1. Compile the project.
