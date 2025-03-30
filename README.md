@@ -61,6 +61,9 @@ For an image `example.jpg`, the program creates `example.txt` containing the AI-
 - If the folder does not exist, an error message is displayed.
 - If an issue occurs while processing an image, it is logged to the console.
 
+## Executable for Windows
+<a href='https://github.com/Explo-bot/GetDescrImg/blob/main/DescrImg.7z'>Win-64 executable</a> with built-in framework (no need to have .NET Framework 8 installed)
+
 ## License
 This project is open-source and available under the MIT License.
 
