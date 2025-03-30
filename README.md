@@ -43,6 +43,7 @@ This is an example obtained with OpenAI 4o-mini model:
 </p>
 <b>Description</b>: "The image shows a humanoid robot with a metallic face sitting in a chair. The robot has a feminine form with detailed anatomical features, including a defined chest, arms, and legs. The robot is connected to multiple wires that extend from various points on its body to the sides of the chair. The robot's head is equipped with a headpiece that has additional wires attached. The background is plain and dark, with a geometric shape resembling a pentagon or star drawn above the robot's head. The image is taken from a frontal angle, capturing the entire body of the robot and the chair it is seated on."
 </p>
+  
 ## How to Use
 1. Compile the project.
 2. Edit the configuration file.
