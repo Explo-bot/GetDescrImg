@@ -49,7 +49,7 @@ This is an example obtained with OpenAI 4o-mini model:
 2. Edit the configuration file.
 3. Run the executable with the folder path as an argument:
    ```sh
-   ImageDescriptionGenerator.exe "C:\path\to\image\folder"
+   DescrImg.exe "C:\path\to\image\folder"
    ```
 4. The application processes images and generates `.txt` files with descriptions.
 
