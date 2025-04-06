@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Configuration;
 using System.IO;
 using System.Net.Http;
@@ -15,6 +15,7 @@ class Program
         string apiUrl = ConfigurationManager.AppSettings["apiURL"];
         string apiKey = ConfigurationManager.AppSettings["openAIKey"];
         string prompt = ConfigurationManager.AppSettings["prompt"];
+        string gptmodel = ConfigurationManager.AppSettings["model"];
 
         // Check if the user provided a folder path
         if (args.Length != 1)
@@ -48,7 +49,7 @@ class Program
                     // Prepare request payload
                     var requestBody = new
                     {
-                        model = "gpt-4o-mini",
+                        model = gptmodel,
                         messages = new[]
                         {
                             new
