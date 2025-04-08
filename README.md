@@ -1,5 +1,7 @@
 ﻿# Image Description Generator
 
+# Deprecated, replaced by https://github.com/Explo-bot/Img2Txt
+
 ## Overview
 This Visual Studio 2022 project is a C# console application that processes all images in a specified folder and generates descriptive text files for each image using OpenAI's API.
 It runs on .NET Framework 8 (Core).
